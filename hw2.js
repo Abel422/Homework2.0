@@ -332,7 +332,6 @@ function reviewInput() {
     if (name === "range") name = "Pain Level (0 to 10)";
     if (name === "username") name = "User ID";
     if (name === "pass") name = "Password";
-    if (name === "cpass") name = "Confirm Password";
 
 
         var value = el.value;
