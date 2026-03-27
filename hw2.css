@@ -58,7 +58,7 @@ th {
 footer {
     position: flex;
     bottom: 0;
-    width: 100%;
+    width: 200%;
     background-color: #cde20d;
     height: 3.0rem;
 }
@@ -123,14 +123,12 @@ p {
 
 #review {
     margin-top: 5px;
-    text-align: center;
 }
 
 table.output,
 tr.output,
 td.output {
     width: 500px;
-    text-align: left;
     background-color: lightyellow;
     padding: 10px;
     border-spacing: 2px;
