@@ -314,15 +314,25 @@ function reviewInput() {
         var name = el.name;
 
         if (name === "fname") name = "First Name";
-        if (name === "mname") name = "Middle Initial";
-        if (name === "lname") name = "Last Name";
-        if (name === "phonen") name = "Phone Number";
-        if (name === "email") name = "Email Address";
-        if (name === "zcode") name = "Zip Code";
-        if (name === "vacc") name = "Have you been vaccinated?";
-        if (name === "insur") name = "Do you have insurance?";
-        if (name === "range") name = "Pain Level (0 to 10)";
-        if (name === "username") name = "User ID";
+    if (name === "mname") name = "Middle Initial";
+    if (name === "lname") name = "Last Name";
+    if (name === "pgender") name = "Gender";
+    if (name === "dob") name = "Date of Birth";
+    if (name === "ssn") name = "ID Number";
+    if (name === "address1") name = "Address Line 1";
+    if (name === "address2") name = "Address Line 2";
+    if (name === "city") name = "City";
+    if (name === "state") name = "State";
+    if (name === "zcode") name = "Zip Code";
+    if (name === "email") name = "Email Address";
+    if (name === "phonen") name = "Phone Number";
+    if (name === "vacc") name = "Have you been vaccinated?";
+    if (name === "insur") name = "Do you have insurance?";
+    if (name === "notes") name = "Additional Notes";
+    if (name === "range") name = "Pain Level (0 to 10)";
+    if (name === "username") name = "User ID";
+    if (name === "pass") name = "Password";
+    if (name === "cpass") name = "Confirm Password";
 
 
         var value = el.value;
