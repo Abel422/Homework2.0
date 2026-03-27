@@ -56,7 +56,7 @@ th {
 }
 
 footer {
-    position: fixed;
+    position: flex;
     bottom: 0;
     width: 100%;
     background-color: #cde20d;
@@ -143,7 +143,5 @@ td.output {
     border-spacing: 2px;
 }
 
-table {
-    margin: 0 auto;
-}
+
 
