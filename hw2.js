@@ -332,6 +332,7 @@ function reviewInput() {
     if (name === "range") name = "Pain Level (0 to 10)";
     if (name === "username") name = "User ID";
     if (name === "pass") name = "Password";
+    if (name === "cpass") name = "Confirm Password";
 
 
         var value = el.value;
@@ -374,11 +375,7 @@ function reviewInput() {
                 }
         }
     }
-    //symptoms
-    if (symptoms.length > 0) {
-    formoutput += "<tr><td align='right'>Current Symptoms</td>";
-    formoutput += "<td class='outputdata'>" + symptoms.join(", ") + "</td></tr>";
-    }
+    
 
     formoutput += "</table>";
     document.getElementById("showInput").innerHTML = formoutput;
@@ -390,11 +387,3 @@ function removeReview() {
     document.getElementById("showInput").innerHTML = "";
 }
 
-let symptoms = [];
-
-if (document.getElementById("option1").checked) symptoms.push("Sore Throat");
-if (document.getElementById("option2").checked) symptoms.push("Fever");
-if (document.getElementById("option3").checked) symptoms.push("Headache");
-if (document.getElementById("option4").checked) symptoms.push("Cough");
-if (document.getElementById("option5").checked) symptoms.push("Shortness of Breath");
-if (document.getElementById("option6").checked) symptoms.push("None");
